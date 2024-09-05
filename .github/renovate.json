@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    "group:definitelyTyped",
+    "group:linters"
+  ],
+  "postUpdateOptions": [
+    "yarnDedupeHighest"
+  ]
+}

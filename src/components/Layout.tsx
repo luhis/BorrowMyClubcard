@@ -11,7 +11,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
       <footer>
         <Button.Group>
           <Link to="/privacyPolicy">Privacy Policy</Link>
-          <span>© {new Date().getFullYear()} Mangaji Lrd</span>
+          <span>© {new Date().getFullYear()} Mangaji Ltd</span>
         </Button.Group>
         <CookieConsent />
       </footer>
