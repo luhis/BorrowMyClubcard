@@ -15,8 +15,9 @@ const UsingTypescript: React.FC = () => {
     <Layout>
       <Level>
         Supermarkets now often offer discounts to card members. Left it at home?  Borrow a card for your shop today and get the prices you deserve.
-        <Dropdown onChange={(v: Card) => setCard(v)}>
+        <Dropdown value={card} onChange={(v: Card) => setCard(v)}>
           <Dropdown.Item value={undefined}>Please Select</Dropdown.Item>
+          <Dropdown.Divider/>
           {cards.map(c => <Dropdown.Item value={c}>{c.shop}</Dropdown.Item>)}
         </Dropdown>
 
