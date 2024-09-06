@@ -17,8 +17,11 @@
     "lint": "eslint src/**/*.{js,jsx,ts,tsx} --fix"
   },
   "dependencies": {
+    "@eslint/js": "^9.9.1",
     "bulma": "^1.0.2",
+    "eslint": "^9.9.1",
     "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.2",
     "gatsby": "^5.13.7",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
@@ -28,12 +31,14 @@
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
+    "globals": "^15.9.0",
     "preact": "^10.23.2",
     "preact-render-to-string": "^6.5.10",
     "react": "^18.2.0",
     "react-bulma-components": "^4.1.0",
     "react-dom": "^18.2.0",
-    "react-qr-code": "^2.0.15"
+    "react-qr-code": "^2.0.15",
+    "typescript-eslint": "^8.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",

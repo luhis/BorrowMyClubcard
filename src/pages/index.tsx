@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Columns, Dropdown, Level } from "react-bulma-components";
+import { Dropdown, Level } from "react-bulma-components";
 import QRCode from "react-qr-code";
 import {sample} from "lodash";
 
@@ -18,7 +18,7 @@ const UsingTypescript: React.FC = () => {
         <Dropdown value={card} onChange={(v: Card) => setCard(v)}>
           <Dropdown.Item value={undefined}>Please Select</Dropdown.Item>
           <Dropdown.Divider/>
-          {cards.map(c => <Dropdown.Item value={c}>{c.shop}</Dropdown.Item>)}
+          {cards.map(c => <Dropdown.Item key={c.shop} value={c}>{c.shop}</Dropdown.Item>)}
         </Dropdown>
 
       </Level>
