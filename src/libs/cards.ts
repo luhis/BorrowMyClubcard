@@ -1,8 +1,8 @@
 
 
 
-export const cards = [{ shop: "Tesco", number: "abc" }, { shop: "Nectar", number: "123" }]
+export const cards = [{ shop: "Tesco", number: ["abc"] }, { shop: "Nectar", number: ["123"] }]
 
-export interface Card {
-    shop: string, number: string
-}
+export type Card = Readonly<{
+    shop: string, number: readonly string[]
+}>
