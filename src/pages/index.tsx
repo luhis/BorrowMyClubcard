@@ -6,6 +6,7 @@ import {sample} from "lodash";
 import Layout from "../components/Layout";
 import SEO from "../components/Head";
 import { Card, cards } from "../libs/cards";
+import Barcode from "react-barcode";
 
 export const Head = () => <SEO title="Borrow my Clubcard" />;
 
@@ -22,7 +23,7 @@ const UsingTypescript: React.FC = () => {
         </Dropdown>
 
       </Level>
-      {card ? <QRCode value={sample(card.number) || ''}></QRCode> : null}
+      {card ? <Barcode value={sample(card.number) || ''}></Barcode> : null}
 
     </Layout>
   );
