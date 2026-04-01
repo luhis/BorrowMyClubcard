@@ -5,6 +5,6 @@
     "group:linters"
   ],
   "postUpdateOptions": [
-    "yarnDedupeHighest"
+    "npmDedupe"
   ]
 }
