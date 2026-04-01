@@ -31,7 +31,7 @@
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
-    "globals": "^15.9.0",
+    "globals": "^17.0.0",
     "preact": "^10.23.2",
     "preact-render-to-string": "^6.5.10",
     "react": "^19.0.0",
