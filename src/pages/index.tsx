@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Dropdown, Level } from "react-bulma-components";
-import QRCode from "react-qr-code";
 import {sample} from "lodash";
+import Barcode from "react-barcode";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Head";
 import { Card, cards } from "../libs/cards";
-import Barcode from "react-barcode";
 
 export const Head = () => <SEO title="Borrow my Clubcard" />;
 
