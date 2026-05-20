@@ -9,6 +9,7 @@ export const Head = () => <SEO title="Escape Lidl" />;
 //examples
 // 0888007908163875130546
 // 088800790{code from receipt}{date}
+// 0888007508992176200516 20.05.26
 
 const UsingTypescript: React.FC = () => {
     const today = new Date();
