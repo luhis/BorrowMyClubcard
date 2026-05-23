@@ -7,7 +7,7 @@ import SEO from "../components/Head";
 export const Head = () => <SEO title="Escape Lidl" />;
 
 //examples
-// 0888007908163875130546
+// 0888007908163875130546 13.05.26
 // 088800790{code from receipt}{date}
 // 0888007508992176200516 20.05.26
 
